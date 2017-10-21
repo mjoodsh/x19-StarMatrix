@@ -14,7 +14,7 @@ int main() {
 cout<<"Enter rows and columns of stars:"<<endl;
 cin>>input1;
 cin>>input2;
-if (input1 >0 || input2 >0){
+if (input1 >0 && input2 >0){
 
 x.resize(input1);
 
